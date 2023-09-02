@@ -89,7 +89,7 @@
       <div class="listing__section">
         <span class="listing__section__title">
           <a href="https://coord.info/GCA9WJX" class="link">
-            Listing skrytki
+            Listing skrytki na Geocaching.com
           </a>
         </span>
       </div>
