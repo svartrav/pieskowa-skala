@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="listing-header">
     <div class="language-box">
         <NuxtLink to="/ListingPL" class="link">
           Język Polski
@@ -26,6 +26,7 @@
       <img
         src="~/assets/pieskowa-skala.jpg"
         alt="PS"
+        class="image-box__image"
       />
     </div>
   </div>
@@ -39,8 +40,18 @@ export default {
 </script>
 
 <style lang="scss">
+.listing-header {
+  width: 900px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .language-box {
-  background:url(https://img.geocaching.com:443/1c75def2-54cb-4ce8-9e09-dcc22042d151.png);
+  width: 100%;
+  background:url("~@/assets/listing-text-bg.jpeg");
   border:2px solid black;
   color:white;
   margin-bottom:30px;
@@ -57,7 +68,13 @@ export default {
 }
 
 .image-box {
+  width: 500px;
+  max-width: 90%;
   text-align: center;
+
+  &__image {
+    width: 100%;
+  }
 }
 
 a {

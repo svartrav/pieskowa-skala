@@ -1,8 +1,12 @@
 <template>
   <div class="home">
     <div class="home__language-box">
-      <span style="justify-content: center" class="home__language-box__title">
-        Letterbox Zamek Pieskowa Skała
+      <span class="home__language-box__title">
+        Zamek Pieskowa Skała<br />
+      </span>
+
+      <span class="home__language-box__subtitle">
+        Letterbox - GCA9WJX
       </span>
 
       <div class="home__language-box__divider"/>
@@ -14,25 +18,23 @@
       <div class="home__language-box__flags">
         <div class="home__language-box__flags__row">
           <NuxtLink to="/ListingPL">
-            <img src="@/assets/flags/PL.png" class="country-flag" style="margin-right: 15px" alt="PL" />
+            <img src="@/assets/flags/PL.png" class="country-flag"  alt="PL" />
           </NuxtLink>
 
           <NuxtLink to="/ListingEN">
-            <img src="@/assets/flags/UK.png" class="country-flag" style="margin-right: 15px" alt="EN" />
+            <img src="@/assets/flags/UK.png" class="country-flag" alt="EN" />
           </NuxtLink>
 
           <NuxtLink to="/ListingUA">
             <img src="@/assets/flags/UA.png" class="country-flag" alt="UA" />
           </NuxtLink>
-        </div>
 
-        <div class="home__language-box__flags__row">
           <NuxtLink to="/ListingDE">
-            <img src="@/assets/flags/DE.png" class="country-flag" style="margin-right: 15px" alt="DE" />
+            <img src="@/assets/flags/DE.png" class="country-flag" alt="DE" />
           </NuxtLink>
 
           <NuxtLink to="/ListingCZ">
-            <img src="@/assets/flags/CZ.png" class="country-flag"  style="margin-right: 15px" alt="CZ" />
+            <img src="@/assets/flags/CZ.png" class="country-flag"  alt="CZ" />
           </NuxtLink>
         </div>
       </div>
@@ -57,6 +59,7 @@ export default {
   align-items: center;
 
   &__language-box {
+    max-width: calc(100% - 30px);
     width: 700px;
     padding: 30px;
     background-color: white;
@@ -69,6 +72,13 @@ export default {
       color: #0c2038;
       font-size: 30px;
       text-align: center;
+    }
+
+    &__subtitle {
+      color: #0c2038;
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 10px;
     }
 
     &__divider {
@@ -87,13 +97,10 @@ export default {
       margin-top: 10px;
 
       &__row {
-        margin-bottom: 19px;
-
-        &:last-child {
-          margin-bottom: 0px;
-        }
+        text-align: center;
 
         .country-flag {
+          margin: 0 5px 10px 5px;
           width: 200px;
           height: 120px;
           border: black solid 1px;
