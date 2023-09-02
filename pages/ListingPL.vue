@@ -33,6 +33,7 @@
         Po ustaniu wojennej zawieruchy zamek został znacjonalizowany i przekazany w ręce Ministerstwa Rolnictwa jednak już w 1950r. przekazano go Ministerstwu Kultury i Sztuki. Dzięki badaniom architektonicznym udało się odsłonić renesansowe elementy architektury oraz zrekonstruowano dziedziniec arkadowy i loggię widokową zaś zagospodarowanie zamku powierzono Państwowym Zbiorom Sztuki na Wawelu. W 1970r. bramy Pieskowej Skały zostały otwarte dla turystów. Od tego czasu przez zamek przetaczają się już nie pożary a renowacje i remonty a samo miejsce staje się istną perełką polskiego muzealnictwa. W 2023r. zamek otworzył swoje podwoje dla geocachingu.</div>
 
       <div style="background:url(https://img.geocaching.com:443/1c75def2-54cb-4ce8-9e09-dcc22042d151.png);border:2px solid black;color:white;padding:30px;">
+
         <div style="background:white;height:1px;margin-bottom:5px;margin-left:5px;margin-right:5px;margin-top:5px;width:100%;"> </div>
 
         <h2 style="text-align:center;"><strong>Wejście na teren zamku</strong></h2>
