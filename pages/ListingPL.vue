@@ -121,6 +121,10 @@ export default {
     padding: 50px;
     background-color: white;
 
+    @media (max-width: 600px) {
+      padding: 10px;
+    }
+
     &__section {
       background: url("~@/assets/listing-text-bg.jpeg");
       border: 2px solid black;
@@ -128,6 +132,10 @@ export default {
       margin-bottom: 30px;
       margin-top: 30px;
       padding: 30px;
+
+      @media (max-width: 600px) {
+        padding: 10px;
+      }
 
       &:last-child {
         margin-bottom: 0px;
@@ -137,7 +145,7 @@ export default {
         background: white;
         height: 1px;
         margin: 20px 5px;
-        width: 100%;
+        width: calc(100% - 10px);
       }
 
       &__title {
