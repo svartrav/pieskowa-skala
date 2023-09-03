@@ -6,8 +6,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - pieskowa-skala-ssr',
-    title: 'pieskowa-skala-ssr',
+    title: 'GCA9WJX - Zamek Pieskowa Skała',
     htmlAttrs: {
       lang: 'en'
     },
