@@ -80,7 +80,7 @@
         <br>
         Zagadka 2:<br>
         Odwiedź dziedziniec zamku i odpowiedz na pytania zamieszczone pod poniższym linkiem:<br>
-        [LINK]<br>
+        <NuxtLink to="/Quiz2" class="link">Link do zagadki nr 2.</NuxtLink><br>
         Ta zagadka zapewni ci kod do <strong>PRAWEJ</strong> kłódki oraz współrzędne wschodnie skrytki.<br>
         <br />
         Po podjęciu skrytki upewnij się, że zostawiasz skrytkę w oryginalnym stanie. <strong>Nie pomyl kł&oacute;dek i nie baw się nimi</strong>, upewnij się, że pojemniki umieszczone są w skrytce tak, by nie zostały zmiażdżone przez pokrywę. W nagrodę weź certyfikat znalazcy znajdujący się w oznaczonym pojemniku.
