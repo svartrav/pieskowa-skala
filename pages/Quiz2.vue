@@ -107,7 +107,7 @@ export default {
           answer: "Odpowiedź",
           check: "Sprawdź",
           congratulations: "Gratulacje!",
-          finishText: "Udało ci się rozwiązać ten prosty quiz. W nagrodę otrzymujesz kod do PRAWEJ kłódki - rok powstania skrytki geocache w Zamku na Pieskowej Skale - 2023. Dodatkowo należą ci się współrzędne wschodnie skrytki - E 19° 46.798'"
+          finishText: "Udało Ci się rozwiązać ten prosty quiz. W nagrodę podam Ci hasło do PRAWEJ kłódki. Jest to data powstania skrytki geocache w Zamku na Pieskowej Skale - 2023. Dodatkowo zapisz sobie współrzędne wschodnie skrytki - E 19° 46.798'"
         },
         EN: {
           answer: "Answer",

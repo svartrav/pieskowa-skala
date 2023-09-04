@@ -20,6 +20,10 @@
           </a>
         </span>
       </div>
+
+      <div class="listing__section">
+        <logos/>
+      </div>
     </div>
   </div>
 </template>
