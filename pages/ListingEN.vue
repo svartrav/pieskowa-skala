@@ -149,7 +149,7 @@ export default {
         background: white;
         height: 1px;
         margin: 20px 5px;
-        width: 100%;
+        width: calc(100% - 10px);
       }
 
       &__title {

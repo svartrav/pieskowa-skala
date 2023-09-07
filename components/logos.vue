@@ -40,7 +40,7 @@ export default {
 
   &__image {
     max-height: 150px;
-    max-width: 100%;
+    max-width: calc(100% - 30px);
     margin: 10px 15px;
   }
 }
