@@ -75,15 +75,15 @@
         <br>
         Quiz 1:<br>
         Read the cache listing and solve the quiz from the link below:<br>
-        <b><a href="https://learningapps.org/watch?v=p0kiz8i7j23" class="link">Link to quiz no. 1.</a></b><br>
-        This quiz will provide you with the code to the <strong>LEFT</strong> padlock and the north coordinated of the cache.<br>
+        <b><a href="https://learningapps.org/watch?v=pwnj0jrfk23" class="link">Link to quiz no. 1.</a></b><br>
+        This quiz will provide you with the code to the <strong>LEFT</strong> padlock and the north coordinates of the cache.<br>
         <br>
         Quiz 2:<br>
         Visit the Pieskowa Skała castle courtyard and answer the questions from the quiz below:<br>
-        <NuxtLink to="/Quiz2" class="link">Link to quiz no. 2.</NuxtLink><br>
+        <NuxtLink to="/Quiz2?lang=EN" class="link">Link to quiz no. 2.</NuxtLink><br>
         This quiz will provide you with the code to the <strong>RIGHT</strong> padlock and the east coordinates of the cache.<br>
         <br />
-        After finding the cache please make sure that you're leaving everything exactly as you found it. <strong>Do not confuse the padlocks and do not play with them</strong>, make sure that all the containers are in the right place so they won't be crushed bu the cover. As a reward, take the finder's certificate from the marked container.
+        After finding the cache please make sure that you're leaving everything exactly as you found it. <strong>Do not confuse the padlocks and do not play with them</strong>, make sure that all the containers are in the right place so they won't be crushed by the cover. As a reward, take the finder's certificate from the marked container.
       </div>
 
       <div class="listing__section">
