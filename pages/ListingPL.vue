@@ -4,7 +4,7 @@
       <listing-header/>
 
       <div class="listing__section">
-        <div class="listing__section__divider">&nbsp;</div>
+        <div class="listing__section__divider"/>
 
         <span class="listing__section__title">
           Zamek Pieskowa Skała
@@ -32,7 +32,7 @@
 
         <div class="listing__section__divider"/>
 
-        W XVII wieku starosta lanckoroński, Michał Zebrzydowski, jako gorliwy katolik, wzbogacił zamek o okazałą kaplicę św. Michała oraz przeprowadził gruntowny remont przestarzałych elementów obronnych zamku. Mimo remontu zamek padł jednak ofiarą działań wojennych w trakcie Potopu Szwedzkiego, kiedy to został zniszczony i ograbiony przez najeźdźców. Kolejne renowacje wiązały się z nagłym przypływem środków pochodzących z wydobycia soli w kopalniach w Bochni i Wieliczce. Niestety z czasem utracił on swoje niepraktyczne w polskich realiach włoskie krużganki i loggie zyskując jednak w tym okresie na wystroju wnętrz. W 1850 roku zamek strawił kolejny pożar - tym razem jego skutki okazały się tragiczne i 3 lata później na wskutek zniszczeń zawalił się usytuowany na Skale Dorotki zamek górny. Na początku XX. wieku mocno zaniedbany zamek trafił w ręce specjalnie powołanej w celu jego ratowania Spółki Akcyjnej, która to przeznaczyła go na luksusowy pensjonat. Miejsce to znajdowało się wówczas na terenie zaboru rosyjskiego przez co utraciło bliskie związki z Krakowem, a stało się celem wycieczek mieszkańców Warszawy i całej rosyjskiej części podzielonej Polski Pensjonat funkcjonował w latach 1903-1939, a w trakcie II Wojny Światowej został udostępniony na sierociniec, w którym schronienie znalazły setki dzieci, głównie pochodzących z kresów wschodnich.
+        W XVII wieku starosta lanckoroński, Michał Zebrzydowski, jako gorliwy katolik, wzbogacił zamek o okazałą kaplicę św. Michała oraz przeprowadził gruntowny remont przestarzałych elementów obronnych zamku. Mimo remontu zamek padł jednak ofiarą działań wojennych w trakcie Potopu Szwedzkiego, kiedy to został zniszczony i ograbiony przez najeźdźców. Kolejne renowacje wiązały się z nagłym przypływem środków pochodzących z wydobycia soli w kopalniach w Bochni i Wieliczce. Niestety z czasem utracił on swoje niepraktyczne w polskich realiach włoskie krużganki i loggie zyskując jednak w tym okresie na wystroju wnętrz. W 1850 roku zamek strawił kolejny pożar - tym razem jego skutki okazały się tragiczne i 3 lata później na wskutek zniszczeń zawalił się usytuowany na Skale Dorotki zamek górny. Na początku XX. wieku mocno zaniedbany zamek trafił w ręce specjalnie powołanej w celu jego ratowania Spółki Akcyjnej, która to przeznaczyła go na luksusowy pensjonat. Miejsce to znajdowało się wówczas na terenie zaboru rosyjskiego przez co utraciło bliskie związki z Krakowem, a stało się celem wycieczek mieszkańców Warszawy i całej rosyjskiej części podzielonej Polski. Pensjonat funkcjonował w latach 1903-1939, a w trakcie II Wojny Światowej został udostępniony na sierociniec, w którym schronienie znalazły setki dzieci, głównie pochodzących z kresów wschodnich.
 
         <div class="listing__section__divider"/>
 
