@@ -75,7 +75,7 @@
         <br>
         Kvíz 1:<br>
         Přečtěte si listing keše a vyřešíte kvíz zde:<br>
-        <b><a href="https://learningapps.org/watch?v=pwnj0jrfk23" class="link">Kviz 1</a></b><br>
+        <b><a href="https://learningapps.org/watch?v=p567h1yyn23" class="link">Kviz 1</a></b><br>
         Tento Kvíz vám dá kód k <strong>LEVÉMU</strong> zámku a severní souřadnice keše.<br>
         <br>
         Kvíz 2:<br>
