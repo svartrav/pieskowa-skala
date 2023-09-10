@@ -1,28 +1,42 @@
 <template>
   <div class="logos">
-    <img
-      src="~/assets/logos/Wawel.png"
-      alt="Wawel"
-      class="logos__image"
-    />
+    <div class="logos__node">
+      <img
+        src="~/assets/logos/ILN.png"
+        alt="ILN grants"
+        class="logos__node__image"
+      /><br/>
+    </div>
 
-    <img
-      src="~/assets/logos/ILN.png"
-      alt="ILN grants"
-      class="logos__image"
-    />
+    <div class="logos__row">
+      <div class="logos__node">
+        <img
+          src="~/assets/logos/Wawel.png"
+          alt="Wawel"
+          class="logos__node__image"
+          style="margin-bottom: 10px;"
+        />
+        BENEFICJENT
+      </div>
 
-    <img
-      src="~/assets/logos/NILU.png"
-      alt="NILU"
-      class="logos__image"
-    />
+      <div class="logos__node">
+        <img
+          src="~/assets/logos/NILU.png"
+          alt="NILU"
+          class="logos__node__image"
+          style="margin-bottom: 10px;"
+        />
+        PARTNER
+      </div>
+    </div>
 
-    <img
-      src="~/assets/logos/MKiDN.png"
-      alt="Ministerstwo Kultury i Dziedzictwa Narodowego"
-      class="logos__image"
-    />
+    <div class="logos__node">
+      <img
+        src="~/assets/logos/MKiDN.png"
+        alt="Ministerstwo Kultury i Dziedzictwa Narodowego"
+        class="logos__node__image"
+      />
+    </div>
   </div>
 </template>
 
@@ -35,13 +49,20 @@ export default {
 <style scoped lang="scss">
 .logos {
   margin-top: 5px;
-  max-width: 100%;
+  width: 100%;
   text-align: center;
 
-  &__image {
-    max-height: 150px;
-    max-width: calc(100% - 30px);
-    margin: 10px 15px;
+  &__node {
+    margin: 20px 15px 40px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__image {
+      max-height: 150px;
+      max-width: calc(100% - 30px);
+    }
   }
 }
 </style>
