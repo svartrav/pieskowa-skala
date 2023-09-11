@@ -231,8 +231,17 @@ export default {
         ],
       },
       taskPhotos: [
+        "1.jpeg",
+        "2.png",
         undefined,
-        "pieskowa-skala.jpg",
+        "4.png",
+        "5.jpeg",
+        undefined,
+        undefined,
+        "8.jpeg",
+        "9.jpeg",
+        "10.png",
+        "11.png"
       ],
       texts: {
         PL: {
