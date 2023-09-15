@@ -8,6 +8,14 @@
       /><br/>
     </div>
 
+    <div class="logos__node">
+      <img
+        src="~/assets/logos/MKiDN.png"
+        alt="Ministerstwo Kultury i Dziedzictwa Narodowego"
+        class="logos__node__image"
+      />
+    </div>
+
     <div class="logos__row">
       <div class="logos__node">
         <img
@@ -28,14 +36,6 @@
         />
         PARTNER
       </div>
-    </div>
-
-    <div class="logos__node">
-      <img
-        src="~/assets/logos/MKiDN.png"
-        alt="Ministerstwo Kultury i Dziedzictwa Narodowego"
-        class="logos__node__image"
-      />
     </div>
   </div>
 </template>

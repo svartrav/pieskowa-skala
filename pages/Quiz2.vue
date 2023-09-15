@@ -201,12 +201,82 @@ export default {
         ],
         UA: [
           {
-            task: "Task1",
-            answer: "Answer1",
+            name: "Зовнішній двір",
+            task: "Ласкаво просимо на подвір'я замку! Вашим першим завданням буде уважно оглянути територію і знайти металеву модель замку. Ознайомтеся з ним, і ви побачите герб родини Шафранецьких, нерозривно пов'язаної з історією Пєскової Скали. Зліва від герба є підпис польською та англійською мовами. Зі скількох літер складається перше слово цього напису?",
+            answer: "8",
           },
           {
-            task: "Task2",
-            answer: "Answer2",
+            name: "Оборонні споруди",
+            task: "Стоячи обличчям до герба, поверніться на 180 градусів. У кутах двору ви побачите елементи двох бастіонів, які разом з куртиною, що їх з'єднує, були збудовані незадовго до шведського вторгнення у 1655 році. На лівому бастіоні знаходиться вузька вежа - скільки високих вікон, які не були замуровані, видно з двору?",
+            answer: "2"
+          },
+          {
+            name: "Готична вежа",
+            task: " Якщо ви подивитеся далі ліворуч, то побачите високу, аскетичну вежу. Це одна з двох артилерійських веж, побудованих у 15 столітті для захисту замку зі східного боку. Гарматні отвори були розташовані аж на 10 рівнях. Чи є ця вежа вищою за будівлі, що оточують її сьогодні?",
+            answer: "Так",
+            options: [
+              "Так",
+              "Ні",
+            ]
+          },
+          {
+            name: "Оглядова лоджія",
+            task: "Знову повернувши ліворуч вздовж видимих будівель, ви побачите оглядову лоджію 16 століття. Її красиві арки були замуровані у 18 столітті, але під час реставрації після Другої світової війни ренесансний характер був відновлений. Праворуч від лоджії ви побачите годинник зі знаками зодіаку. Який знак зодіаку знаходиться між 1 та 2 годинами?",
+            answer: "Скорпіон",
+            options: [
+              "Лев",
+              "Діва",
+              "Водолій",
+              "Скорпіон",
+              "Стрілець"
+            ]
+          },
+          {
+            name: "Ворота внутрішнього двору",
+            task: " Прямуючи до внутрішнього двору замку, ви побачите загострений портал 15 століття, який є одним із середньовічних елементів замку. Зліва від воріт, над двома маленькими віконцями, ви побачите два викарбувані тексти. У той час як правий текст частково зруйнований, на лівому ви побачите напис \"MNIE TV DLA OBRONY ZBVDOWANO A BOGU WOPIEKE PODANO GDIZ BEZ RATVNKV IEGO NIEOBRONI NIKT NICZEGO\" що приблизно означає \" Для оборони я був збудований і під Божий захист довірений, бо без його захисту ніхто нічого не захистить. \". Скільки літер з цього речення знаходиться у 3-му рядку тексту?",
+            answer: "20",
+          },
+          {
+            name: "Аркадне подвір'я",
+            task: " Тепер можна увійти у внутрішній двір замку. Аркади прикрашені маскаронами, а перед входом, на висоті 1-го поверху, ви побачите два герби - герб Шафранецьких - Стариконь (Старий кінь) і герб Равич, що належав дружині Станіслава Шафранецького - Анні Дембінській. На цьому гербі ми побачимо жінку в короні верхи на великій тварині, яка є...",
+            answer: "Ведмідь",
+            options: [
+              "Кінь",
+              "Ведмідь",
+              "Лось",
+              "Лев"
+            ]
+          },
+          {
+            name: "Замковий колодязь",
+            task: " Під гербами ви знайдете елементи замкової криниці XIV або XV століття. Через висоту, на якій розташований замок, доступ до води був дуже ускладнений, тому цей колодязь має вражаючу глибину - 50 м. У середньовічні часи від колодязя відходив широкий канал, в який слуги зливали здобуту воду. Цим каналом вода потрапляла до дерев'яних труб, які вели до пральні та кухні замку, розташованих у підвалі. На верхні поверхи воду носили у відрах. З якого матеріалу виготовлені верхні елементи криниці?",
+            answer: "Дерево",
+            options: [
+              "Мармур",
+              "Вапняк",
+              "Скло",
+              "Дерево"
+            ]
+          },
+          {
+            name: " Лямус ",
+            task: " У протилежному кутку двору ви побачите чорну металеву браму. За нею знаходиться Лямус - приміщення, що слугує господарським складом. Заходьте всередину і роздивіться навколо. Скільки ламп на стелі цієї кімнати? Якщо Лямус зачинений або там перебуває група, спробуйте вгадати відповідь - ламп менше, ніж 10.",
+            answer: "5",
+          },
+          {
+            name: "Аркади",
+            task: " Ліворуч від входу у двір знаходяться сходи, що ведуть на 1-й поверх аркадних монастирів. На їх вершині, на стіні, ви знайдете фрагмент 127-го псалма 19-го століття, написаний французькою мовою. В українській версії текст звучить так: \" Коли дому Господь не будує, даремно працюють його будівничі при ньому.\" Скільки рядків було написано на стіні французькою мовою?",
+            answer: "3",
+          },
+          {
+            name: "Скеля Дороті",
+            task: " Знайдіть сходи, що ведуть на наступний поверх монастиря. На одній зі стін монастиря є кольорові вікна. Ця стіна відокремлювала нині неіснуючий Верхній замок від Нижнього. Якщо вам пощастить, одне з цих вікон буде відчинене, і ви побачите за ним Скелю Дороті. За легендою, Дороті (пол. Dorotka) була невірною дружиною одного з роду Шафранців, яку жорстокий чоловік замурував живцем у підвалі під вежею. Скільки тут таких кольорових вікон?",
+            answer: "2",
+          },
+          {
+            name: "Надгробні плити",
+            task: " На цьому ж поверсі ви знайдете надгробки з фігурами лицарів початку 17 століття. Варто зазначити, що місце, де вони розташовані, має цікаву особливість - завдяки формі даху двоє людей можуть стати в протилежні кути обличчям до стіни і спілкуватися пошепки. Вони добре чутимуть одне одного, але хтось, хто стоятиме посередині, не почує їхньої розмови. Скільки надгробків на цьому місці?",
+            answer: "2",
           }
         ],
         DE: [
@@ -221,12 +291,82 @@ export default {
         ],
         CZ: [
           {
-            task: "Task1",
-            answer: "Answer1",
+            name: "Vnější nádvoří",
+            task: "Vítejte na nádvoří! Vaším prvním úkolem je se pozorně rozhlédnout a najít kovovou model hradu. Seznamte se s ním a najdete erb rodiny Szafraniec která je neoddělitelnou součástí historie hradu Pieskowa Skała. Nalevo od erbu jsou popisné informace v polštině a angličtině, kolik písmen má první slovo?",
+            answer: "8",
           },
           {
-            task: "Task2",
-            answer: "Answer2",
+            name: "Obranné opevnění",
+            task: "Při pohledu na erb se otočte o 180 stupňů v rozích nádvoří můžete vidět části dvou bašt, které společně s záclonou budovou, která je spojuje byly vybudovány před švédskou invazí v roce 1655. Na levé baště je nalepena úzká věž – kolik nezazděných vyšších oken je vidět z nádvoří?",
+            answer: "2"
+          },
+          {
+            name: "Gotická věž",
+            task: "Pokud se podíváte o kousek doleva uvidíte vysokou asketickou věž. Jedná se o jednu ze dvou dělostřeleckých věží vybudovaných v 15. století na obranu hradu z východu. Průstřely se nacházely až na 10 patrech. Je tato věž vyšší než budovy, co jí v současnosti obklopují?",
+            answer: "Ano",
+            options: [
+              "Ano",
+              "Ne",
+            ]
+          },
+          {
+            name: "Vyhlídková lodžie",
+            task: "Pokud váš pohled přenesete ještě o pár metrů nalevo po budovách před námi uvidíte vyhlídkovou lodžii z 16. století. Její krásné oblouky byly zazděny během 18. století ale během renovací během druhé světové války by její renesanční charakter obnoven. Napravo od ní vidíte hodiny se zvířetníkem. Které znamení je mezi první a druhou hodinou?",
+            answer: "Štír",
+            options: [
+              "Lev",
+              "Panna",
+              "Vodnář",
+              "Štír",
+              "Střelec"
+            ]
+          },
+          {
+            name: "Brána vnitřního nádvoří",
+            task: "Cestou na vnitřní nádvoří uvidíte lomený portál z 15. století, který je jedním z středověkých prvků tohoto hradu. Nalevo od brány nad dvěma okénky uvidíte vyryté texty. Zatím co ten napravo je poničený, na levém je nápis \"MNIE TV DLA OBRONY ZBVDOWANO A BOGU WOPIEKE PODANO GDIZ BEZ RATVNKV IEGO NIEOBRONI NIKT NICZEGO\" volně přeloženo \"K obraně jsem byl postaven a do Boží ochrany svěřen, jelikož bez jeho ochrany nikdo nic neubrání\". Kolik písmen z této věty je ve třetím řádku?",
+            answer: "20",
+          },
+          {
+            name: "Arkádové nádvoří",
+            task: "Nyní můžete vstoupit na vnitřní nádvoří. Arkády jsou zdobeny maskarony. Před vstupem, na úrovni prvního patra najdete dva erby - erb rodu Szafraniec - Starykoń (starý kůň) a erb rodu Rawicz patřící manželce Stanisława Szafraniece - Anně Dębińské. Na erbu najdete ženu s korunou jedoucí na zvířeti, kterým je...",
+            answer: "Medvěd",
+            options: [
+              "Kůň",
+              "Medvěd",
+              "Los",
+              "Lev"
+            ]
+          },
+          {
+            name: "Studna",
+            task: "Pod erby najdete části studny z 14. nebo 15. století, vzhledem k výšce, kde je hrad postaven byl přístup k vodě značně limitován, tato studna dosahuje úctyhodných 50 m. Ve středověku zde byl koryto vystupující ze studny do kterého služební vylévali vodu kterou ze studny vytáhli, tímto kanálem voda dosáhla dřevěnou trubku vedoucí do kuchyně a prádelny ve sklepě. Do vyšších podlaží se voda vynášela v kyblících. Z jakého materiálu jsou vrchní části studny?",
+            answer: "Dřevo",
+            options: [
+              "Mramor",
+              "Pískovec",
+              "Sklo",
+              "Dřevo"
+            ]
+          },
+          {
+            name: "Lamus",
+            task: "Na opačné straně nádvoří uvidíte černou železnou mříž za ní je Lamus - užitkovou místnost . Vstupte dovnitř a rozhlédněte se. Kolik lamp vidíte na stropě? Pokud je Lamus zavřený probíhá zde právě prohlídka, zkuste tedy hádat, je zde méně než 10 lamp.",
+            answer: "5",
+          },
+          {
+            name: "Arkády",
+            task: "Nalevo od vchodu na nádvoří najdete schody do prvního poschodí, kde se nachází křížové chodby. Na vrchu těchto schodů, na stěně, najdete část 127. žalmu z 19. století, který je napsán Francouzsky. V české verzi je text takto: \"Když nestaví dům Hospodin, marně se lopotí, kdo ho stavějí\". Kolik řádků má Francouzská verze na stěně?",
+            answer: "3",
+          },
+          {
+            name: "Dorotin kámen",
+            task: "Najděte schodiště vedoucí na další patro. Na jedné ze zdí zde naleznete pestrobarevná okenní skla, tato část zdi oddělovala nyní již neexistující horní hrad od dolního. Pokud budete mít štěstí bude jedno z oken otevřeno a uvidíte jím Dorotin kámen. Podle legendy, byla Dorotka nevěrnou manželkou jednoho člena rodiny Szafraniec, která byla zazděna zaživa svým krutým manželem ve sklepě pod věží. Kolik pestrobarevných oken se zde nachází?",
+            answer: "2",
+          },
+          {
+            name: "Náhrobky",
+            task: "Na stejném poschodí naleznete náhrobky s postavami rytířů ze začátku 17. století. Stojí za zmínku že místo kde se nachází má zajímavou vlastnost - díky tvaru střechy mohou dva lidé stát v opačných rozích otočeni čelem ke stěně a komunikovat šepotem, vzájemně se uslyší ale ten kdo by stál mezi nimi z této konverzace neuslyší ani slovo. Kolik náhrobků zde napočítáte?",
+            answer: "2",
           }
         ],
       },
@@ -258,9 +398,9 @@ export default {
         },
         UA: {
           answer: "Відповідь",
-          check: "підтвердити",
-          congratulations: "",
-          finishText: ""
+          check: "Перевірка",
+          congratulations: " Вітаємо!",
+          finishText: " Ви успішно пройшли тест. У нагороду я дам вам пароль до ПРАВОГО замка. Це дата створення тайника в замку Пєскова Скала - 2023 рік. Додатково можете записати східні координати схованки - E 19° 46.798'"
         },
         DE: {
           answer: "Antwort",
@@ -269,10 +409,10 @@ export default {
           finishText: ""
         },
         CZ: {
-          answer: "Odpověď",
-          check: "Potvrdit",
-          congratulations: "",
-          finishText: ""
+          answer: "Otázka",
+          check: "Zkontroluj",
+          congratulations: "Gratulace!",
+          finishText: "Úspěšně jste dokončili kvíz! Za odměnu vám dám kód k PRAVÉMU zámku. Je to rok založení kešky na hradu Pieskowa Skała - 2023. Také si můžete zapsat východní souřadnice kešky - E 19° 46.798'"
         }
       }
     }
