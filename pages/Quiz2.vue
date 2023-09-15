@@ -281,12 +281,82 @@ export default {
         ],
         DE: [
           {
-            task: "Task1",
-            answer: "Answer1",
+            name: "Äußerer Schlosshof",
+            task: "Willkommen im Schlosshof! Deine erste Aufgabe ist es, das Metallmodell des Schlosses zu finden. Schau es Dir genau an und du wirst bemerken, dass das Wappen der Familie Szafraniec untrennbar mit der Geschichte des Schlosses Pieskowa Skała ist. An der linken Seite des Wappens, ist ein Motto in Polnisch und Englisch: Aus wie vielen Buchstaben besteht das erste Wort?",
+            answer: "8",
           },
           {
-            task: "Task2",
-            answer: "Answer2",
+            name: "Verteidigungsanlagen",
+            task: "In Blickrichtung zum Wappen, drehe Dich um 180 Grad. In den Ecken des Hofes, siehst du Elemente zweier Bastionen, welche, durch die Ringmauer miteinander verbunden, kurz vor der schwedischen Invasion im Jahre 1655 erbaut wurden. Bei der linken Bastion steht ein schmaler Turm: Wie viele Fenster, welche nicht verziegelt wurden, sind vom Schlosshof aus sichtbar?",
+            answer: "2"
+          },
+          {
+            name: "Gothischer Turm",
+            task: "Schaust Du weiter nach links, sieht man einen großen, asketischen Turm. Es ist einer der Artillerietürme, welche im 15. Jahrhundert errichtet wurden um die Ostseite des Schlosses zu schützen. Die Schießscharten sind auf bis zu 10 Stockwerken verteilt. Ist dieser Turm höher, als die anderen Gebäude drum herum?",
+            answer: "Ja",
+            options: [
+              "Ja",
+              "Nein",
+            ]
+          },
+          {
+            name: "Observationsloggia",
+            task: "Weiter links an den Gebäuden entlang, sieht man eine Observationsloggia aus dem 16. Jahrhundert. Die schönen Bögen wurden im 18. Jahrhundert verziegelt, der Rennaissance Charakter wurde aber bei Renovierungen nach dem 2. Weltkrieg wieder erneuert. Zur rechten der Loggia befindet sich eine Uhr mit Sternzeichen. Welches Sternzeichen steht zwischen 1 und 2 Uhr?",
+            answer: "Skorpion",
+            options: [
+              "Löwe",
+              "Jungfrau",
+              "Wassermann",
+              "Skorpion",
+              "Schütze"
+            ]
+          },
+          {
+            name: "Tor des inneren Schlosshofes",
+            task: "Auf dem Weg zum inneren Schlosshof, sieht man ein spitz zulaufendes Tor aus dem 15. Jahrhundert; eins der mittelalterlichen Elemente des Schlosses. Zur linken des Tores, über zwei kleinen Fenstern, sind 2 Texte eingraviert. Der rechte Text ist teilweise zerstört, aber beim linken ist folgende Inschrift zu lesen \"MNIE TV DLA OBRONY ZBVDOWANO A BOGU WOPIEKE PODANO GDIZ BEZ RATVNKV IEGO NIEOBRONI NIKT NICZEGO\" was grob übersetzt heißt \"Für die Verteidigung wurde ich gebaut und anvertraut dem Schutze Gottes, denn ohne Seinen Schutz wie niemand etwas verteidigen\". Wie viele Buchstaben des Satzes sind in der 3. Zeile des Textes?",
+            answer: "20",
+          },
+          {
+            name: "Arkaden des Innenhofs",
+            task: "Nun kannst Du den inneren Schlosshof betreten. Die Arkaden sind mit Maskaroden verziert und vor dem Eingang, auf der Höhe des 1. Stockes, befinden sich 2 Wappen - Das Szafraniec Wappen - Starykoń (Altes Pferd) und das Rawicz Wappen zugehörig zur Frau von Stanisław Szafraniec - Anna Dębińska. Auf diesem Wappen sieht man eine Frau mit Krone auf einem riesigen Tier reiten, es ist ein...?",
+            answer: "Bär",
+            options: [
+              "Pferd",
+              "Bär",
+              "Elch",
+              "Löwe"
+            ]
+          },
+          {
+            name: "Schlossbrunnen",
+            task: "Unter den Wappen, sieht man Elemente des Schlossbrunnens aus dem 14. oder 15. Jahrhundert. Durch die Höhe, auf der sich das Schloss befindet, war es schwer an Wasser heranzukommen, weswegen dieser Brunnen eine beeindruckende Tiefe von 50 Metern aufweist. Im Mittelalter, gab es einen breiten Kanal, welcher aus dem Brunnen schaute und aus dem die Bediensteten das Wasser geschöpft haben. Durch diesen Kanal hat das Wasser auch über Holzrohre die Schlossküche und den Waschraum erreicht, welche sich im Keller befinden. Zu den oberen Stockwerken wurde das Wasser mit Eimern getragen. Aus welchem Material sind die oberen Elemente des Brunnens?",
+            answer: "Holz",
+            options: [
+              "Marmor",
+              "Kalkgestein",
+              "Glas",
+              "Holz"
+            ]
+          },
+          {
+            name: "Lamus",
+            task: "Bei der gegenüber liegenden Ecke des Schlosshofes, kann man ein schwarzes Metallgitter sehen. Dahinter ist ein Lamus - ein polnisches Lehmhaus, welches als Versorgungsspeicher und Getreidelager benutzt wurde. Gehe hinein und schau Dich um. Wie viele Lampen sind an der Decke? Wenn es geschlossen ist oder die Tourengruppe gerade drin ist, versuch die Antwort zu erraten - es sind weniger als 10 Lampen.",
+            answer: "5",
+          },
+          {
+            name: "Arkaden",
+            task: "Zur linken Seite des Eingangs zum Schlosshof, befindet sich eine lange Treppe, die zum ersten Stock der Arkaden Kreuzgänge führt. Oben auf, an der Wand, findest Du ein Fragment des 127. Psalms aus dem 19. Jahrhundert, auf Französisch verfasst. Auf Deutsch übersetzt steht da: \"Wenn nicht der Herr das Haus baut, müht sich jeder umsonst, der daran baut.\" In wie vielen Zeilen wurde die französische Fassung an die Wand geschrieben?",
+            answer: "3",
+          },
+          {
+            name: "Fels Dorothea",
+            task: "Finde die Treppen, die zum nächsten Stock der Kreuzgänge führt. Dort sind bunte Fenster auf einer Seite. Diese Wand teilte das, nun nicht mehr existierende, Oberschloss vom unteren Schloss. Wenn Du Glück hast, ist eins der Fenster offen und Du kannst den Fels Dorothea dahinter sehen. Legenden zufolge war Dorothea (pl. Dorotka) eine untreue Frau von einem Angehörigen der Familie Szafraniec, welche von ihrem Mann, lebendig im Keller, zugemauert wurde. Wie viele buntee Fenster gibt es hier?",
+            answer: "2",
+          },
+          {
+            name: "Grabsteine",
+            task: "Im gleichen Stock befinden sich Grabsteine mit Figuren von Rittern aus dem frühen 17. Jahrhundert. Man sollte erwähnen, dass der Ort an dem sie sich befinden ein interessantes Feature besitzt - durch die Form des Daches, können zwei Leute in gegenüber liegenden Ecken stehen und miteinander, nur durch flüstern, kommunizieren. Sie könnten sich verständigen, während einer in der Mitte keinen Ton hören würde. Wie viele Grabsteine gibt es hier?",
+            answer: "2",
           }
         ],
         CZ: [
@@ -404,12 +474,12 @@ export default {
         },
         DE: {
           answer: "Antwort",
-          check: "Bestätigen",
-          congratulations: "",
-          finishText: ""
+          check: "Eingabe",
+          congratulations: "Gratulation!",
+          finishText: "Du hast das Quiz erfolgreich abgeschlossen. Als Belohnung gibt es die Kombination für das RECHTE Zahlenschloss. Es ist das Datum der Veröffentlichung des Geocaches, hier im Schloss Pieskowa Skała - 2023. Außerdem sind hier die Ostkoordinaten des Caches - O 19° 46.798'"
         },
         CZ: {
-          answer: "Otázka",
+          answer: "Odpověď",
           check: "Zkontroluj",
           congratulations: "Gratulace!",
           finishText: "Úspěšně jste dokončili kvíz! Za odměnu vám dám kód k PRAVÉMU zámku. Je to rok založení kešky na hradu Pieskowa Skała - 2023. Také si můžete zapsat východní souřadnice kešky - E 19° 46.798'"
