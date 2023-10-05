@@ -94,8 +94,12 @@
         </span>
       </div>
 
-      <div class="listing__section">
-        <logos/>
+      <div class="logos">
+        <img
+          src="~/assets/logos/logos.jpg"
+          alt="Logos"
+          class="logos__image"
+        />
       </div>
     </div>
   </div>
@@ -169,6 +173,18 @@ export default {
       color: white;
       text-decoration: underline;
       font-weight: bold;
+    }
+
+    .logos {
+      width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+
+      &__image {
+        width: 100%;
+        max-width: 700px;
+      }
     }
   }
 }
